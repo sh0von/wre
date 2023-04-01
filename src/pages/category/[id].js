@@ -32,7 +32,7 @@ export default function Category() {
       </nav>
       <div className="section">
         <div className="container">
-          <h1 className="title">{category.name}</h1>
+          <h1 className="title"></h1>
 
           <div className="">
             {category.links.map((link) => (
